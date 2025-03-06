@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+
+body {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* min-height: 100vh; */
+    background-image: url(morgan-rovang-20kse6mso1w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+
+    background-color: rgba(2, 2, 2, 0.993);
+    position: ;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+
+    height: 40px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0px 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    z-index: 44444;
+}
+
+nav a:hover {
+    border: solid 1px;
+    border: rgba(210, 105, 30, 0);
+    border-radius: 6px;
+    background-color: rgba(206, 167, 37, 0.594);
+}
+
+nav li:first-child {
+
+    margin-right: auto;
+}
+
+
+.sidbar {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 99922222222222222222;
+    background-color: rgba(0, 0, 0, 0.196);
+    backdrop-filter: blur(20px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidbar li {
+
+
+    width: 100%;
+}
+
+.sidbar a {
+
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.btum {
+    display: none;
+
+}
+
+@media(max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .btum {
+        display: block;
+    }
+}
+
+@media(max-width: 600px) {
+    .sidbar {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+.cont {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    min-width: 40vh;
+}
+
+.wel {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    border: solid rgba(246, 246, 235, 0.995);
+    border-radius: 11px;
+    background-color: rgba(0, 0, 0, 0.393);
+    width: ;
+}
+
+.wel :hover {
+    color: rgb(158, 3, 3);
+
+
+}
+
+.don {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.don img {
+    margin: 0px 0px;
+}
+
+.card {
+    display: flex;
+    /* margin: 20px; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item1 {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.648);
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: solid 2px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item1 :hover {}
+
+
+
+
+
+
+
+
+
+
+.item1 h2 {
+
+    color: rgb(255, 218, 158);
+    text-align: center;
+}
+
+.item1 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.item1 h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.454);
+    min-height: 15vh;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.foot ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.765);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+.foot ul {
+
+    color: black;
+}
+
+.foot ul a {
+    margin: 10px;
+    color: rgba(255, 247, 247, 0.885);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+.foot h3 {
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    padding-top: 5px;
+
+}
+
+.foot h3 :hover {
+
+    color: black;
+}
